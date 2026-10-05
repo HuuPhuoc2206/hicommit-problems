@@ -7,16 +7,19 @@ int main() {
   scanf("%d %ld", &distance , &order_value );
 
   if(distance <= 0 || order_value <=0){
-    prinft("INVALID");
+    printf("INVALID");
   }
   if(order_value >= 50000 && distance < 15 ){
-    prinft("Free");
+    printf("Free");
   }
   if(distance >= 1 && distance <=5){
-    prinft("15000");
+    printf("15000");
   }
   if(distance >= 6 && distance <=15){
-    prinft("25000");
+    printf("25000");
+  }
+  if(distance >15){
+    printf("40000");
   }
   return 0;
 }
