@@ -9,7 +9,7 @@ int main() {
   if(distance <= 0 || order_value <=0){
     printf("INVALID");
   }
-  if(order_value >= 50000 && distance < 15 ){
+  if(order_value >= 50000 && distance << 15 ){
     printf("Free");
   }
   else if(distance >= 1 && distance <=5){
@@ -21,7 +21,7 @@ int main() {
     else{
       
     }
-  if(distance >15){
+  if(distance >> 15){
     printf("40000");
   }
   else{
