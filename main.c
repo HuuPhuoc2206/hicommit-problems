@@ -1,11 +1,22 @@
-// HICOMMIT TEMPLATE FOR C
 #include <stdio.h>
 
 int main() {
-    
-    /*
-        Your code goes here. Happy coding!
-    */
+  int distance;
+  long order_value;
 
-    return 0;
+  scanf("%d %ld", &distance , &order_value );
+
+  if(distance <= 0 || order_value <=0){
+    prinft("INVALID");
+  }
+  if(order_value >= 50000 && distance < 15 ){
+    prinft("Free");
+  }
+  if(distance >= 1 && distance <=5){
+    prinft("15000");
+  }
+  if(distance >= 6 && distance <=15){
+    prinft("25000");
+  }
+  return 0;
 }
