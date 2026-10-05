@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    long long distance, order_value;
-    if (scanf("%lld %lld", &distance, &order_value) == 2) {
+    long distance, order_value;
+    if (scanf("%ld %ld", &distance, &order_value) == 2) {
         if (distance <= 0 || order_value < 0) {
             printf("INVALID");
         } else if (order_value >= 500000 && distance <= 15) {
