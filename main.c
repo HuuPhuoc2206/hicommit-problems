@@ -2,7 +2,7 @@
 
 int main() {
   int distance;
-  long order_value;
+  long long order_value;
 
   scanf("%d %ld", &distance , &order_value );
 
