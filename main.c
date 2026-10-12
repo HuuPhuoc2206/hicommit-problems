@@ -3,7 +3,7 @@
 
 int main() {
     long long int n;
-    scanf("%d", &n);
+    scanf("%Ld", &n);
 
     if (n % 2 == 0) {
         printf("CHAN\n");
