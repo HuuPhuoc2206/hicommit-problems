@@ -4,7 +4,7 @@
 int main() {
     long long a, b, c, max;
 
-    scanf("%d %d %d", &a, &b, &c);
+    scanf("%Ld %Ld %Ld", &a, &b, &c);
 
     max = a;
 
@@ -16,7 +16,7 @@ int main() {
         max = c;
     }
 
-    printf("%d\n", max);
+    printf("%Ld\n", max);
 
     return 0;
 }
