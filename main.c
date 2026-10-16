@@ -14,7 +14,7 @@ int main() {
   else if( t>=25 || t<= 35 ){
     printf("NONG");
   }
-  eles ( t>35 ){
+  else ( t>35 ){
     printf("RATNONG");
   }
   return 0;
