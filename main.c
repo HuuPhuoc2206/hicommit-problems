@@ -2,7 +2,7 @@
 
 int main() {
     int t;
-    scanf("%d", &t){
+    if (scanf("%d", &t) == 1) {
         if (t < 15) {
             printf("LANH\n");
         } else if (t >= 15 && t < 25) {
