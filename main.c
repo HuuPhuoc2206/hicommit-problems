@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-  float a;
+  long long a;
 
   switch(a){
     case 1: printf("XEP_lOAI_XUAT_SAC"); break;
