@@ -9,6 +9,18 @@ int main() {
   }
   else if(dtb >= 8.0 && dtb <= 8.9){
     printf("B+");
+  } 
+  else if(dtb >= 7.0 && dtb <= 7.9){
+    printf("B");
+  }
+  else if(dtb >= 6.5 && dtb <= 6.9){
+    printf("C+");
+  }
+  else if(dtb >= 5.5 && dtb <= 6.4){
+    printf("C");
+  }
+  else if(dtb < 4.0){
+    printf("F");
   }
   return 0;
 }
