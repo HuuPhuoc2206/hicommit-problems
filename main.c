@@ -25,7 +25,7 @@ int main() {
   else if(dtb >= 4.0 && dtb <= 4.9){
     printf("D");
   }
-  else{
+  else if(dtb < 4.0){
     printf("F");
   }
   return 0;
