@@ -1,19 +1,20 @@
+
 #include <stdio.h>
 
 int main() {
-    float w, h, bmi;
+    double w, h, bmi;
 
-    scanf("%f %f", &w, &h);
+    scanf("%lf %lf", &w, &h);
 
-    bmi = w / ((h / 100) * (h / 100));
+    bmi = w * 10000.0 / (h * h);
 
     if (bmi < 18.5) {
         printf("UNDERWEIGHT\n");
     }
-    else if (bmi < 25) {
+    else if (bmi < 25.0) {
         printf("NORMAL\n");
     }
-    else if (bmi < 30) {
+    else if (bmi < 30.0) {
         printf("OVERWEIGHT\n");
     }
     else {
