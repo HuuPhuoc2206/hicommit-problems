@@ -31,5 +31,6 @@ int main() {
            + 100* 2536
            + (k - 300) * 2834;
   }
+    printf("%lld\n", tien);
 return 0;
 }
