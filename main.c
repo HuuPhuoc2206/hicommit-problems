@@ -4,7 +4,7 @@ int main() {
   int k;
   long long tien;
 
-  scanf("%d", &k
+  scanf("%d", &k)
 
   if (k <= 50) {
         tien = k * 1678;
