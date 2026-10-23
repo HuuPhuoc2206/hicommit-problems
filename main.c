@@ -5,10 +5,10 @@ int main() {
   scanf("%f",&dtb);
 
   if(dtb >= 9.0 && dtb <= 10.0){
-    printf("A")
+    printf("A");
   }
   else if(dtb >= 8.0 && dtb <= 8.9){
-    printf("A+")
+    printf("A+");
   }
   return 0;
 }
