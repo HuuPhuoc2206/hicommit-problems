@@ -3,9 +3,6 @@ int main(){
   long long a;
   scanf("%lld",&a);
   switch(a){
-    if(a==1){
-      printf("XEP_lOAI_XUAT_SAC");
-    }
     case 1: printf("XEP_lOAI_XUAT_SAC"); break;
     case 2: printf("XEP_LOAI_GIOI"); break;
     case 3: printf("XEP_LOAI_KHA"); break;
