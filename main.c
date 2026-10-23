@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
   long long a;
-  scanf("%lld",%a);
+  scanf("%lld",&a);
   switch(a){
     if(a==1){
       printf("XEP_lOAI_XUAT_SAC");
