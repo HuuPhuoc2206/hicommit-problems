@@ -1,11 +1,12 @@
-// HICOMMIT TEMPLATE FOR C
 #include <stdio.h>
 
 int main() {
-    
-    /*
-        Your code goes here. Happy coding!
-    */
+  long long a;
 
-    return 0;
+  switch(a){
+    case 1: printf("XEP_lOAI_XUAT_SAC"); break;
+  
+  }
+  
+  return 0;
 }
